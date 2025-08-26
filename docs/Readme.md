@@ -6,12 +6,12 @@ It takes plain text (or a .txt file) and returns useful statistics such as word 
 Project Structure:
 
    backend/
-   ├─ api/                # FastAPI app
+   ├─ api/
    │   └─ main.py
-   ├─ app/                # Core utilities
+   ├─ app/
    │   ├─ io_utils.py
    │   └─ text_utils.py
-   └─ tests/              # Pytest unit tests
+   └─ tests/
 
 Features:
 
